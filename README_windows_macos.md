@@ -23,21 +23,42 @@ This repository explores FYTA plant sensor, contextual-event, and image data wit
 
 ## Run locally
 
+Clone the repository and move into the project folder:
+
 ```bash
 git clone <repo-url>
 cd <repo-folder>
+```
 
+Create a virtual environment:
+
+```bash
 python -m venv .venv
 ```
 
-Activate the environment:
+Activate it depending on your terminal:
+
+### Windows — Git Bash
 
 ```bash
-# macOS / Linux
+source .venv/Scripts/activate
+```
+
+### Windows — PowerShell
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+### macOS / Linux
+
+```bash
 source .venv/bin/activate
 ```
 
-Install dependencies:
+After activation, the terminal should show `(.venv)`.
+
+Install the project dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -72,6 +93,6 @@ The analysis is intentionally rule-based and interpretable. Sensor and image sig
 
 ## Proposed Production Architecture
 
-This simplified design proposal for AWS-oriented architecture shows how the exercise could evolve into a production pipeline.
+This simplified AWS-oriented architecture shows how the exercise could evolve into a production pipeline. It is a design proposal, not a representation of FYTA's exact internal architecture.
 
 ![Proposed FYTA Production Architecture](wide_infographic_style_architecture_diagram_with.png)
