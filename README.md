@@ -73,4 +73,8 @@ The notebooks directly use:
 
 The analysis is intentionally rule-based and interpretable. Sensor and image signals are treated as supporting evidence rather than causal proof of plant condition or user actions.
 
-> Architecture diagram to be added separately.
+## Proposed Production Architecture
+
+This simplified design proposal for AWS-oriented architecture shows how the exercise could evolve into a production pipeline.
+
+![Proposed FYTA Production Architecture](wide_infographic_style_architecture_diagram_with.png)
